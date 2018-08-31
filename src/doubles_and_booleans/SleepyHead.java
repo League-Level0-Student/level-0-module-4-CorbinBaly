@@ -21,8 +21,8 @@ public class SleepyHead {
 if(day==JOptionPane.YES_OPTION) {
 	isWeekday=true;
 	int vac= JOptionPane.showConfirmDialog(null, "Is it a vacation?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
-	if(isVacation==Y)
-}
+	else if(isVacation==YES_OPTION) {
+	
 else {
 	isWeekday=false;
 	System.out.println("Sleep in?");
