@@ -1,7 +1,6 @@
 package charAt_scanners_optionDialogs;
 
 import javax.swing.JOptionPane;
-import javax.xml.bind.ParseConversionEvent;
 
 public class HappyPet {
 
@@ -30,7 +29,7 @@ public class HappyPet {
 				feedAnimal();
 
 			} else if (task == 2) {
-			petAnimal();
+				petAnimal();
 			} else {
 				groomAnimal();
 			}
